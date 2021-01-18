@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Focus++</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+</head>
+
+<body>
+    <div class="row" style="overflow: hidden;">
+    <div class="col-lg-6" style="padding: 8% 10%;">
+        <div class="pictures">
+            <canvas id="image" class="canvas" width="150" height="150"style=""></canvas>
+            <canvas id="sadge" class="sadge" width="64" height="64" style="display: none;"></canvas>
+            <video id="videoElement" autoplay="true" width="20%" height="20%"></video>
+        </div>
+    </div>
+
+    <div class="col-lg-6" style="padding: 16% 1%;">
+        <div id="tim">
+        <div id="timer">
+            <h4>Pomodoro Count Down <span id="time" >25:00</span></h4>
+            <audio id="noise" src="windows.mp3" preload="auto"></audio>
+            <button id="stop" onclick="pp(), hideTimer(), sendPomos()">Stop</button>
+        </div>
+        <div id="pepepe" style="display: none; text-align: center;">
+            <h4 style="display: inline-block; overflow: hidden;">you ended this pomo at</h4>
+            <h5 id="poo" style="overflow: hidden;display: block;"></h5>
+            <button id="stop" onclick="javascript:window.location.href='index.html'">Home</button>
+            <button id="stop" onclick="javascript:window.location.href='results.html'">Summary</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="choice.js"></script>
+
+</html>

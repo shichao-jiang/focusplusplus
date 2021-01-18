@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "TotalTime": 24,
+      "FocusTime": 17,
+      "DistPhone": 5,
+      "DistTalk": 2
+    },
+    {
+      "TotalTime": 47,
+      "FocusTime": 36,
+      "DistPhone": 9,
+      "DistTalk": 2
+    },
+    {
+      "TotalTime": 10,
+      "FocusTime": 8,
+      "DistPhone": 0,
+      "DistTalk": 2
+    },
+    {
+      "TotalTime": 24,
+      "FocusTime": 11,
+      "DistPhone": 11,
+      "DistTalk": 2
+    },
+    {
+      "TotalTime": 37,
+      "FocusTime": 35,
+      "DistPhone": 2,
+      "DistTalk": 0
+    },
+    {
+      "TotalTime": 22,
+      "FocusTime": 20,
+      "DistPhone": 2,
+      "DistTalk": 0
+    },
+    {
+      "TotalTime": 19,
+      "FocusTime": 18,
+      "DistPhone": 1,
+      "DistTalk": 0
+    },
+    {
+      "TotalTime": 9,
+      "FocusTime": 3,
+      "DistPhone": 4,
+      "DistTalk": 2
+    },
+    {
+      "TotalTime": 9,
+      "FocusTime": 0,
+      "DistPhone": 0,
+      "DistTalk": 9
+    },
+    {
+      "TotalTime": 6,
+      "FocusTime": 0,
+      "DistPhone": 0,
+      "DistTalk": 6
+    },
+    {
+      "TotalTime": 6,
+      "FocusTime": 0,
+      "DistPhone": 0,
+      "DistTalk": 6
+    },
+    {
+      "TotalTime": 53,
+      "FocusTime": 35,
+      "DistPhone": 12,
+      "DistTalk": 6
+    },
+    {
+      "TotalTime": 78,
+      "FocusTime": 39,
+      "DistPhone": 9,
+      "DistTalk": 30
+    },
+    {
+      "TotalTime": 5,
+      "FocusTime": 0,
+      "DistPhone": 0,
+      "DistTalk": 5
+    }
+  ]
+}
